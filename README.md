@@ -2,6 +2,7 @@
 
 
 A simple and visually appealing **Weather Application** built using **HTML, TailwindCSS, and JavaScript**, fetching real-time weather data from the **OpenWeather API**.
+Link to project: https://adhyan-jain.github.io/Weather-Website_HTML_CSS_JS/
 
 
 ## 📌 Features
