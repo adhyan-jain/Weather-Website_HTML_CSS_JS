@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white flex justify-center items-center min-h-screen">
+
+    <div class="text-center p-6 bg-white/10 rounded-lg shadow-lg w-96">
+        <h1 class="text-2xl font-bold mb-4">Weather Checker</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name" class="p-2 w-full rounded-md text-black">
+        <button onclick="getWeather()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold p-2 mt-4 rounded-md w-full">Get Weather</button>
+        <button onclick="getCurrentLocation()" class="bg-green-600 hover:bg-green-700 text-white font-bold p-2 mt-2 rounded-md w-full">Use Current Location</button>
+
+        <div id="weatherData" class="mt-6 hidden">
+            <h2 class="text-xl font-semibold" id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="condition"></p>
+            <img id="weatherIcon" class="mx-auto my-4" src="" alt="Weather Icon">
+            <p id="humidity"></p>
+            <p id="windSpeed"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
